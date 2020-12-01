@@ -1,0 +1,187 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4350553773,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CreateAccountSteps.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate creation of new account",
+        "description": "",
+        "id": "create-account;validate-creation-of-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28410919095,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens automation practice url in the browser",
+            "match": {
+              "location": "CreateAccountSteps.user_opens_automation_practice_url_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1817112765,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Sign in link",
+            "match": {
+              "location": "CreateAccountSteps.user_clicks_on_Sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 243169047,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enters email address",
+            "match": {
+              "location": "CreateAccountSteps.enters_email_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129919659,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on create account",
+            "match": {
+              "location": "CreateAccountSteps.clicks_on_create_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2162104918,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sets Title",
+            "match": {
+              "location": "CreateAccountSteps.sets_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126165721,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sets FirstName",
+            "match": {
+              "location": "CreateAccountSteps.sets_FirstName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103076851,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sets LastName",
+            "match": {
+              "location": "CreateAccountSteps.sets_LastName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126856047,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sets Password",
+            "match": {
+              "location": "CreateAccountSteps.sets_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412986057,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "sets Date of birth",
+            "match": {
+              "location": "CreateAccountSteps.sets_Date_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1100137226,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "sets Address",
+            "match": {
+              "location": "CreateAccountSteps.sets_Address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2136265324,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicks on Register button",
+            "match": {
+              "location": "CreateAccountSteps.clicks_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20408893,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should see My Account page",
+            "match": {
+              "location": "CreateAccountSteps.user_should_see_My_Account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@ae"
+          },
+          {
+            "line": 3,
+            "name": "@TC-100"
+          }
+        ]
+      }
+    ],
+    "name": "Create Account",
+    "description": "",
+    "id": "create-account",
+    "keyword": "Feature",
+    "uri": "CreateAccount.feature"
+  }
+]

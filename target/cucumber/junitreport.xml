@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.139675">
+<testcase classname="Create Account" name="Validate creation of new account" time="41.139675">
+<system-out><![CDATA[Given user opens automation practice url in the browser.....................passed
+When user clicks on Sign in link............................................passed
+And enters email address....................................................passed
+And clicks on create account................................................passed
+And sets Title..............................................................passed
+And sets FirstName..........................................................passed
+And sets LastName...........................................................passed
+And sets Password...........................................................passed
+And sets Date of birth......................................................passed
+And sets Address............................................................passed
+And clicks on Register button...............................................passed
+Then user should see My Account page........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
